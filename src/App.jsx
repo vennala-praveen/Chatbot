@@ -31,6 +31,7 @@ function App() {
     const msg = input.toLowerCase();
     if (msg.includes('hello') || msg.includes('hi')) return 'Hello there!';
     if (msg.includes('how are you')) return 'I am a bot, but doing great!';
+    if (msg.includes('i have one question')) return 'Yeah, please tell me, what can i help you';
     if (msg.includes('bye')) return 'Goodbye! Have a nice day!';
     return 'Sorry, I didn’t understand that.';
   };
